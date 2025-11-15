@@ -9,28 +9,28 @@ I am Pytho. I am learning cybersecurity, and Blue and Red Teaming are my passion
 
 
 <div class="card-grid">
-  <a class="card" href="/walkthroughs/walkthroughs/">
+  <a class="card" href="/website/walkthroughs/walkthroughs/">
     <div class="card-icon" aria-hidden="true">🧳</div>
     <h3 class="card-title">Walkthroughs</h3>
     <hr>
     <p class="card-desc">Writeups for rooms, modules and machines.</p>
   </a>
 
-  <a class="card" href="/cheatsheets/cheatsheets/">
+  <a class="card" href="/website/cheatsheets/cheatsheets/">
     <div class="card-icon" aria-hidden="true">📰</div>
     <h3 class="card-title">Cheatsheet</h3>
     <hr>
     <p class="card-desc">Cheatsheets for quick reminders.</p>
   </a>
 
-  <a class="card" href="/certifications/certifications/">
+  <a class="card" href="/website/certifications/certifications/">
     <div class="card-icon" aria-hidden="true">📄</div>
     <h3 class="card-title">Certifications</h3>
     <hr>
     <p class="card-desc">Prepare to get your dream certifications</p>
   </a>
 
-  <a class="card" href="/contact/">
+  <a class="card" href="/website/contact/">
     <div class="card-icon" aria-hidden="true">💬</div>
     <h3 class="card-title">Contact</h3>
     <hr>
