@@ -1,0 +1,147 @@
+
+html {
+    font-size: 21px;
+}
+
+.hero-bg {
+    width: 100vw;                
+    height: 680px;               
+    margin-left: calc(50% - 50vw); 
+    margin-right: calc(50% - 50vw);
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}.hero-bg::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 320px;              
+    background: linear-gradient(
+        rgba(0, 0, 0, 0),       
+        var(--md-default-bg-color) 70% 
+    );
+}
+
+.md-main__inner {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.md-header {
+    padding-bottom: 10px;
+}
+
+.md-content__inner:before {
+    display: none !important;
+    height: 0 !important;
+}
+
+.md-content__inner {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.md-header {
+    margin-bottom: 0 !important;
+}
+
+.md-main__inner {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.md-content .md-content__inner:before {
+    display: none !important;
+    height: 0 !important;
+}
+
+.hero-bg {
+    margin-top: 0 !important;
+    display: block;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.card {
+  display: block;
+  background-color: rgba(255,255,255,0.02);
+  border: 3px solid rgba(255,255,255,0.04);
+  padding: 1rem;
+  border-radius: 6px;
+  color: var(--md-default-fg-color--lighter);
+  text-decoration: none;
+  transition: transform .12s ease, box-shadow .12s ease;
+  box-shadow: var(--md-shadow-z0);
+}
+
+.card:hover,
+.card:focus {
+  transform: translateY(-4px);
+  box-shadow: var(--md-shadow-z2);
+}
+
+.card-icon {
+  font-size: 1.4rem;
+  color: #001aff; 
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+
+.card-title {
+  font-size: 1rem;
+  margin: 0;
+  color: #0084ff; 
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.4rem;
+  font-family: 'Press Start 2P', var(--md-font-text);
+}
+
+.card hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  margin: 0.4rem 0;
+}
+
+.card-desc {
+  margin: 0;
+  color: var(--md-default-fg-color--lighter);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.card:focus {
+  outline: 3px solid rgba(38, 0, 255, 0.12);
+  outline-offset: 2px;
+}
+
+@media (max-width: 520px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 0.9rem;
+  }
+}
+
+.md-sidebar--secondary .md-nav {
+  font-size: 0.5rem !important;
+}
+
+.md-sidebar--secondary .md-nav__link {
+  font-size: 0.5rem !important;
+  padding: 0.15rem 0 !important;
+}
+
+.md-sidebar--secondary .md-nav__item {
+  padding: 0.15rem 0 !important;
+}
