@@ -145,3 +145,26 @@ html {
 .md-sidebar--secondary .md-nav__item {
   padding: 0.15rem 0 !important;
 }
+
+img {
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 1px 1px 40px 10px rgba(0, 0, 0, 0.562);
+}
+
+.md-typeset p {
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.md-typeset pre {
+  font-size: 0.6rem;
+  line-height: 1.6;
+  border-radius: 16px;
+}
+
+.md-typeset code {
+  font-size: 0.6rem;
+  line-height: 1.6;
+  border-radius: 16px;
+}

@@ -25,6 +25,7 @@ theme:
 
 plugins:
   - tags
+  - glightbox
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -46,6 +47,7 @@ nav:
       - walkthroughs/walkthroughs.md
       - HackTheBox: 
         - Artificial: walkthroughs/HackTheBox/Artificial.md
+        - Strutted: walkthroughs/HackTheBox/Strutted.md
     - Cheatsheets: 
       - cheatsheets/cheatsheets.md
       - cheatsheets/shell.md
